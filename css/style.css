@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* imágen de fondo */
+.bodypao {
+    background-image: url(../img/imageedit_7_3251181590.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Josefin Sans', sans-serif; */
+}    
+
+/* menú de navegación */
+
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    top: 0;
+    justify-content: space-between;
+    font-size: 200%;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    position: relative;
+}
+
+.navbar ul li a:hover {
+    color: grey !important;
+}
+
+.borderpao {
+    border-right: solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.borderfinalpao {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* submenu desplegable */
+
+.navbar ul li ul {
+    display: none;
+    position: absolute;
+    /* top: 30px; */
+    left: 0;
+}
+
+.navbar ul li:hover ul {
+    display: block;
+    text-align: center;
+}
+
+.navbar ul li ul li a {
+    font-size: 70%;
+}
+
+
+/* arreglando bootstrap */
+
+.navbar {
+    background-color: transparent !important;
+}
+
+
+.navbar-nav {
+    --bs-nav-link-padding-y: 0 !important;
+}
+
+ul {
+    padding-left: 2px !important;
+}
+
+/* contenedores */
+
+.container {
+    font-size: 600%;
+    margin-top: 17%;
+}
+
+.main__hola {
+    margin-top: -15%;
+    font-size: 350%;
+} 
+
+.main__paola {
+    margin-top: 2%;
+    font-size: 50%;
+}
+
+@media (min-width:300px) and (max-width:1000px) {
+    .main__hola {
+        font-size: 100%;
+    }
+    .main__paola {
+        font-size: 30%;
+    }
+}
+
+.sectionmenu1 {
+    border: solid black;
+    margin-right: 2%;
+    margin-bottom: 15%;
+    transform: rotate(-5deg);
+}
+
+.sectionmenu2 {
+    border: solid black;
+    margin-left: 2%;
+    margin-bottom: 15%;
+    transform: rotate(10deg);
+}
+
+.sectionmenu1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.sectionmenu2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.sectionmenu1:hover {
+    background-color: #B1E5F2;
+    transform: scale(1);
+}
+
+.sectionmenu2:hover {
+    background-color: #B1E5F2;
+    transform: scale(1);
+}
+
+@media (max-width:768px){
+    .sectionmenuprof {
+        flex-wrap: wrap-reverse !important;
+    }
+}
+
+
+/* links */
+
+.linksinternos ul li a {
+    color: #B1E5F2 ;
+}
+
+.linksinternos ul li {
+    list-style: none;
+}
+
+.linkspao {
+    font-size: 30%;
+}
+
+
+/* ids */
+
+.row div img {
+    width: 100%
+}
+
+#quiensoy, #quiensoypao, #educacion, #datoscontacto, #educacionpao, #desarrolloweb, #javascript, #reactjs, #backend, #experiencialaboral, #habilidades, #excel, #sql, #powerbi, #python  {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20%;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+#datoscontacto h2 {
+    font-family: 'Amatic SC';
+    font-size: 200%;
+    margin-bottom: 5%;
+    margin-top: -20%;
+}
+
+.formularionombre {
+    margin-bottom: 2%;
+}
+
+.formularioemail {
+    margin-bottom: 2%;
+}
+
+.formulariomensaje {
+    margin-bottom: 2%;
+}
+
+
+
