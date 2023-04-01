@@ -1,0 +1,14 @@
+/* footer */
+
+footer {
+    font-family: $title-font;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+    padding-right: 2em;
+    
+    img {
+        height: 2em;
+    }
+}

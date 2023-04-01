@@ -1,0 +1,24 @@
+.indexcontainer {
+    margin-top: 1vh;
+    display: block;
+    align-items: center;
+    padding: 2em;
+    margin-left: 5em;
+
+    .main__hola {
+        font-family: $title-font;
+        font-size: 25vw;
+        margin-bottom: -50px;
+
+        &:hover {
+            text-shadow: 1.5vw 1.5vw #b1e5f2;
+        }
+    }
+
+    .main__paola {
+        font-family: $text-font;
+        margin-left: 9vw;
+        font-size: 2vw;
+    }
+    
+}

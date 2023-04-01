@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@media (min-width: 260px) and (max-width: 990px) {
+  .navpao {
+    font-size: 1.5em !important;
+  }
+  .main__paola {
+    margin-top: 40px;
+  }
+  .indexcontainer {
+    margin-top: 15vh !important;
+    margin-left: 2em !important;
+  }
+}
+/* body - www.svgbackgrounds.com */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23A6A6A8' fill-opacity='0.22' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+  /* font-family: 'Josefin Sans', sans-serif; */
+}
+
+/* menú de navegación */
+.navpao {
+  font-family: "Amatic SC", cursive;
+  font-size: 2em;
+  position: sticky;
+  top: 0;
+  padding-right: 1em;
+}
+.navpao ul .borderpao {
+  border-right: solid 1px black;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.navpao ul .borderfinalpao {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.navpao ul li {
+  list-style: none;
+  position: relative;
+  display: inline;
+}
+.navpao ul li ul {
+  display: none;
+  position: absolute;
+}
+.navpao ul li:hover ul {
+  display: block;
+  text-align: center;
+  font-size: 0.6em;
+}
+.navpao ul li a {
+  color: black;
+  text-decoration: none;
+}
+.navpao ul li a:hover {
+  color: #a6a6a8;
+}
+
+/* footer */
+footer {
+  font-family: "Amatic SC", cursive;
+  background-color: #F8F9FA;
+  display: flex;
+  justify-content: end;
+  gap: 1em;
+  padding-right: 2em;
+}
+footer img {
+  height: 2em;
+}
+
+.indexcontainer {
+  margin-top: 1vh;
+  display: block;
+  align-items: center;
+  padding: 2em;
+  margin-left: 5em;
+}
+.indexcontainer .main__hola {
+  font-family: "Amatic SC", cursive;
+  font-size: 25vw;
+  margin-bottom: -50px;
+}
+.indexcontainer .main__hola:hover {
+  text-shadow: 1.5vw 1.5vw #b1e5f2;
+}
+.indexcontainer .main__paola {
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 9vw;
+  font-size: 2vw;
+}
+
+/* navbar */
+.dropdown-menu {
+  min-width: 0 !important;
+  background-color: #F8F9FA !important;
+  border: none !important;
+}/*# sourceMappingURL=main.css.map */
