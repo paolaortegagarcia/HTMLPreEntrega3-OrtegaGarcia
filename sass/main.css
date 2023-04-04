@@ -1,16 +1,11 @@
 @charset "UTF-8";
-@media (min-width: 260px) and (max-width: 990px) {
-  .navpao {
-    font-size: 1.5em !important;
-  }
-  .main__paola {
-    margin-top: 40px;
-  }
-  .indexcontainer {
-    margin-top: 15vh !important;
-    margin-left: 2em !important;
-  }
+/* navbar */
+.dropdown-menu {
+  min-width: 0 !important;
+  background-color: #F8F9FA !important;
+  border: none !important;
 }
+
 /* body - www.svgbackgrounds.com */
 body {
   margin: 0;
@@ -93,9 +88,480 @@ footer img {
   font-size: 2vw;
 }
 
-/* navbar */
-.dropdown-menu {
-  min-width: 0 !important;
-  background-color: #F8F9FA !important;
-  border: none !important;
+.sectionmenu {
+  margin-top: 25vh;
+  font-family: "Amatic SC", cursive;
+  display: grid;
+  grid-template-areas: "a b";
+}
+.sectionmenu .sectionmenu__a {
+  grid-area: a;
+  transform: rotate(-7deg);
+}
+.sectionmenu .sectionmenu__a:hover {
+  transform: scale(1);
+}
+.sectionmenu .sectionmenu__a a {
+  text-decoration: none;
+  color: black;
+  font-size: 10vw;
+  padding: 0.2em 0.7em;
+  border: solid black;
+}
+.sectionmenu .sectionmenu__a a:hover {
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23B1E5F2' fill-opacity='0.52' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+  box-shadow: 1.5vw 1vw 0.5vw #A6A6A8;
+}
+.sectionmenu .sectionmenu__b {
+  grid-area: b;
+  transform: rotate(10deg);
+}
+.sectionmenu .sectionmenu__b:hover {
+  transform: scale(1);
+}
+.sectionmenu .sectionmenu__b a {
+  text-decoration: none;
+  color: black;
+  font-size: 10vw;
+  padding: 0.2em 0.7em;
+  border: solid black;
+}
+.sectionmenu .sectionmenu__b a:hover {
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23B1E5F2' fill-opacity='0.52' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+  box-shadow: 1.5vw 1vw 0.5vw #A6A6A8;
+}
+
+.contenedorgrande {
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "itema itemb" "itemc itemd" "iteme itemf" "itemg itemh" "itemi itemj";
+  grid-template-columns: 1fr 3fr;
+}
+.contenedorgrande .itema {
+  margin-top: 25vh;
+  margin-bottom: 40vh;
+  font-family: "Amatic SC", cursive;
+  grid-area: itema;
+}
+.contenedorgrande .itema a {
+  text-decoration: none;
+  color: black;
+  font-size: 10vw;
+  padding: 0.2em 0.7em;
+  margin-left: 5vh;
+  border: solid black;
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23B1E5F2' fill-opacity='0.52' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+  box-shadow: 1.5vw 1vw 0.5vw #A6A6A8;
+}
+.contenedorgrande .itemb {
+  grid-area: itemb;
+  margin-top: 30vh;
+}
+.contenedorgrande .itemb .linksinternos ul {
+  margin-top: 2vh;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15vw;
+}
+.contenedorgrande .itemb .linksinternos ul a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+  color: black;
+}
+.contenedorgrande .itemb .linksinternos ul a:hover {
+  color: #b1e5f2;
+}
+.contenedorgrande .itemb .linksinternosprog ul {
+  margin-top: 2vh;
+  list-style: none;
+  display: block;
+}
+.contenedorgrande .itemb .linksinternosprog ul a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+  color: black;
+}
+.contenedorgrande .itemb .linksinternosprog ul a:hover {
+  color: #b1e5f2;
+}
+.contenedorgrande .itemc {
+  grid-area: itemc;
+  margin-top: 30vh;
+}
+.contenedorgrande .itemc img {
+  width: 30vw;
+}
+.contenedorgrande .imagenprog {
+  margin-top: 1vh;
+}
+.contenedorgrande .itemd {
+  grid-area: itemd;
+  padding-top: 20vh;
+  margin-bottom: 40vh;
+}
+.contenedorgrande .itemd .titulos, .contenedorgrande .itemd .fechas {
+  font-family: "Amatic SC", cursive;
+  margin-bottom: 4vh;
+}
+.contenedorgrande .itemd p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: start;
+}
+.contenedorgrande .itemd ul {
+  list-style: none;
+}
+.contenedorgrande .itemd ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrande .iteme {
+  grid-area: iteme;
+}
+.contenedorgrande .iteme img {
+  width: 60%;
+}
+.contenedorgrande .itemf {
+  grid-area: itemf;
+  margin-bottom: 20vh;
+}
+.contenedorgrande .itemf .fechas {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrande .itemf h4 {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrande .itemf ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.contenedorgrande .itemf ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+  text-align: center;
+}
+.contenedorgrande .itemg {
+  grid-area: itemg;
+}
+.contenedorgrande .itemg img {
+  width: 60%;
+}
+.contenedorgrande .itemh {
+  grid-area: itemh;
+  margin-bottom: 20vh;
+}
+.contenedorgrande .itemh .fechas {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrande .itemh h4 {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrande .itemh ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.contenedorgrande .itemh ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+  text-align: center;
+}
+.contenedorgrande .itemi {
+  grid-area: itemi;
+}
+.contenedorgrande .itemi img {
+  width: 60%;
+}
+.contenedorgrande .itemj {
+  grid-area: itemj;
+  margin-bottom: 20vh;
+}
+.contenedorgrande .itemj .fechas {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrande .itemj h4 {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrande .itemj ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.contenedorgrande .itemj ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+  text-align: center;
+}
+
+.contenedorgrandeprofdatos {
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "itemb itema" "itemd itemc" "iteme itemf" "itemg itemh" "itemi itemj";
+  grid-template-columns: 3fr 1fr;
+}
+.contenedorgrandeprofdatos .itema {
+  margin-top: 25vh;
+  margin-bottom: 40vh;
+  font-family: "Amatic SC", cursive;
+  grid-area: itema;
+}
+.contenedorgrandeprofdatos .itema a {
+  text-decoration: none;
+  color: black;
+  font-size: 10vw;
+  padding: 0.2em 0.7em;
+  margin-left: 5vh;
+  border: solid black;
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23B1E5F2' fill-opacity='0.52' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+  box-shadow: 1.5vw 1vw 0.5vw #A6A6A8;
+}
+.contenedorgrandeprofdatos .profsuelto {
+  margin-bottom: 2vh;
+}
+.contenedorgrandeprofdatos .itemb {
+  grid-area: itemb;
+  margin-top: 30vh;
+}
+.contenedorgrandeprofdatos .itemb .linksinternos ul {
+  margin-top: 2vh;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15vw;
+}
+.contenedorgrandeprofdatos .itemb .linksinternos ul a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+  color: black;
+}
+.contenedorgrandeprofdatos .itemb .linksinternos ul a:hover {
+  color: #b1e5f2;
+}
+.contenedorgrandeprofdatos .itemb .linksinternosdat ul {
+  margin-top: 2vh;
+  list-style: none;
+  display: block;
+}
+.contenedorgrandeprofdatos .itemb .linksinternosdat ul a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+  color: black;
+}
+.contenedorgrandeprofdatos .itemb .linksinternosdat ul a:hover {
+  color: #b1e5f2;
+}
+.contenedorgrandeprofdatos .itemc {
+  grid-area: itemc;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandeprofdatos .itemc img {
+  width: 30vw;
+}
+.contenedorgrandeprofdatos .itemd {
+  grid-area: itemd;
+  padding-top: 20vh;
+  margin-bottom: 40vh;
+}
+.contenedorgrandeprofdatos .itemd .titulos, .contenedorgrandeprofdatos .itemd .fechas {
+  font-family: "Amatic SC", cursive;
+  margin-bottom: 4vh;
+}
+.contenedorgrandeprofdatos .itemd p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: start;
+}
+.contenedorgrandeprofdatos .itemd ul {
+  list-style: none;
+}
+.contenedorgrandeprofdatos .itemd ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandeprofdatos .iteme {
+  grid-area: iteme;
+  padding-top: 20vh;
+}
+.contenedorgrandeprofdatos .iteme .titulos, .contenedorgrandeprofdatos .iteme .fechas, .contenedorgrandeprofdatos .iteme p, .contenedorgrandeprofdatos .iteme h4 {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofdatos .iteme p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.8em;
+  text-align: start;
+}
+.contenedorgrandeprofdatos .iteme ul {
+  list-style: none;
+}
+.contenedorgrandeprofdatos .iteme ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandeprofdatos .itemf {
+  grid-area: itemf;
+  margin-bottom: 20vh;
+  padding-top: 20vh;
+}
+.contenedorgrandeprofdatos .itemf img {
+  width: 30vw;
+}
+.contenedorgrandeprofdatos .itemf .fechas {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofdatos .itemf h4 {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofdatos .itemf ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.contenedorgrandeprofdatos .itemf ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+  text-align: center;
+}
+.contenedorgrandeprofdatos .itemg {
+  grid-area: itemg;
+  margin-bottom: 20vh;
+}
+.contenedorgrandeprofdatos .itemg .fechas {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofdatos .itemg h4 {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofdatos .itemg ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.contenedorgrandeprofdatos .itemg ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+  text-align: center;
+}
+.contenedorgrandeprofdatos .itemh {
+  grid-area: itemh;
+  margin-bottom: 50vh;
+}
+.contenedorgrandeprofdatos .itemh img {
+  width: 30vw;
+}
+.contenedorgrandeprofdatos .itemh .fechas {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofdatos .itemh h4 {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofdatos .itemh ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.contenedorgrandeprofdatos .itemh ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+  text-align: center;
+}
+.contenedorgrandeprofdatos .itemi {
+  grid-area: itemi;
+  margin-bottom: 20vh;
+}
+.contenedorgrandeprofdatos .itemi .fechas {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofdatos .itemi h4 {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofdatos .itemi ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.contenedorgrandeprofdatos .itemi ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+  text-align: center;
+}
+.contenedorgrandeprofdatos .itemj {
+  grid-area: itemj;
+  margin-bottom: 50vh;
+}
+.contenedorgrandeprofdatos .itemj img {
+  width: 30vw;
+}
+.contenedorgrandeprofdatos .itemj .fechas {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofdatos .itemj h4 {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofdatos .itemj ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+.contenedorgrandeprofdatos .itemj ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+  text-align: center;
+}
+
+.sectionmenu__c p {
+  margin-top: -3vw;
+  margin-bottom: -3vw;
+  font-size: 10vw;
+}
+.sectionmenu__c p:hover {
+  text-shadow: 1.5vw 1.5vw #b1e5f2;
+}
+
+.sectionmenu__d {
+  font-family: "Josefin Sans", sans-serif;
+}
+.sectionmenu__d .contactopao {
+  margin-top: -5vw;
+  margin-bottom: 5vw;
+}
+.sectionmenu__d .contactopao ul li {
+  list-style: none;
+}
+.sectionmenu__d .contactopao ul li a {
+  color: black;
+}
+.sectionmenu__d .contactopao ul li a:hover {
+  color: #b1e5f2;
+}
+.sectionmenu__d .formulariopao .formularionombre {
+  margin-bottom: 2vw;
+}
+.sectionmenu__d .formulariopao .formularioemail {
+  margin-bottom: 2vw;
+}
+
+@media (min-width: 260px) and (max-width: 990px) {
+  /* navbar */
+  .navpao {
+    font-size: 1.5em;
+  }
+  .navpao .navbar-collapse ul li {
+    border: none;
+  }
+  /* index */
+  .main__paola {
+    margin-top: 40px;
+  }
+  .indexcontainer {
+    margin-top: 15vh !important;
+    margin-left: 2em !important;
+  }
+  /* sobre mi y trabajos */
+  .sectionmenu {
+    grid-template-areas: "a" "b";
+    gap: 20vw;
+  }
+  .sectionmenu .sectionmenu__a a {
+    padding: 0.5em 1em;
+  }
+  .sectionmenu .sectionmenu__b a {
+    padding: 0.5em 1em;
+  }
 }/*# sourceMappingURL=main.css.map */

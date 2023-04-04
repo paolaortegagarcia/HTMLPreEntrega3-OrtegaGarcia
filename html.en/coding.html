@@ -8,18 +8,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Works - Coding - Pao Ortega</title>
+    <meta name="description" content="Portafolio de Paola Ortega Garcia - Works, skills, coding">
+    <meta name="keywords" content="HTML, CSS, Portfolio, Curriculum, Experience, Personal Life, CV, Works, Skills, coding">
     <link rel="shortcut icon" href="../img/favicon_p.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../sass/main.css">
 
 </head>
 
 <body class="bodypao">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navpao navbar navbar-expand-lg bg-body-tertiary">
 
         <ul class="navbar-brand">
             <li class="borderpao"><a href="../html.es/programacion.html">ES</a></li>
@@ -69,38 +71,37 @@
 
     </nav>
 
-    <div class="container text-center">
+    <div class="contenedorgrande text-center" id="links">
+        
+        <div class="itema programacion"><a href="./coding.html">coding</a></div>
 
-        <div class="row">
+        <div class="itemb prog">
 
-            <div class="col sectionmenu1"><a href="./programacion.html">coding</a></div>
-
-            <div class="col linkspao">
-
-                <nav class="linksinternos">
-                    <ul>
-                        <li><a href="#desarrolloweb">Web Developer - HTML & CSS</a></li>
-                        <li><a href="#javascript">Javascript</a></li>
-                        <li><a href="#reactjs">React JS</a></li>
-                        <li><a href="#backend">Backend Developer</a></li>
-                    </ul>
-                </nav>
-
-            </div>
+            <nav class="linksinternosprog">
+                <ul>
+                    <li><a href="#desarrolloweb">Web Developer - HTML & CSS</a></li>
+                    <li><a href="#javascript">Javascript</a></li>
+                    <li><a href="#reactjs">React JS</a></li>
+                    <li><a href="#backend">Backend Developer</a></li>
+                </ul>
+            </nav>
 
         </div>
 
-        <div class="row" id="desarrolloweb">
+        <div class="itemc imagenprog">
 
-            <div class="col-4">
+            <div class="imagen">
                 <img src="../img/htmlcss.png" alt="html y css">
             </div>
+        </div>
 
-            <div class="col-8">
+        <div class="itemd" id="desarrolloweb">
 
-                <h3 class="titulos">
+            <div class="texto">
+
+                <h4 class="titulos">
                     Web Developer
-                </h3>
+                </h4>
 
                 <ul>
                     <li>Creation and design of current website</li>
@@ -108,83 +109,93 @@
                 </ul>
             </div>
 
+            <a href="#links">Go Up</a>
+
         </div>
 
-        <div class="row" id="javascript">
+        <div class="iteme imagenprog">
 
-            <div class="col-4">
+            <div class="imagen">
                 <img src="../img/javascript.png" alt="javascript">
             </div>
+        </div>
 
-            <div class="col-8">
+        <div class="itemf" id="javascript">
 
-                <div>
+            <div class="texto">
 
-                    <h3 class="titulos">
-                        Javascript
-                    </h3>
+                <h4 class="titulos">
+                    Javascript
+                </h4>
         
-                    <ul>
-                        <li><i>soon</i></li>
-                    </ul>
-
-                </div>
+                <ul>
+                    <li><i>soon</i></li>
+                </ul>
 
             </div>
 
+            <a href="#links">Go Up</a>
+
         </div>
 
-        <div class="row" id="reactjs">
+        <div class="itemg imagenprog">
 
-            <div class="col-4">
+            <div class="imagen">
                 <img src="../img/react.png" alt="reactjs">
             </div>
+        </div>
 
-            <div class="col-8">
+        <div class="itemh" id="reactjs">
 
-                <div>
+            <div class="texto">
 
-                    <h3 class="titulos">
-                        React JS
-                    </h3>
+                <h4 class="titulos">
+                    React JS
+                </h4>
         
-                    <ul>
-                        <li><i>soon</i></li>
-                    </ul>
-
-                </div>
+                <ul>
+                    <li><i>soon</i></li>
+                </ul>
 
             </div>
+
+            <a href="#links">Go Up</a>
 
         </div>
 
-        <div class="row" id="backend">
+        <div class="itemi imagenprog">
 
-            <div class="col-4">
+            <div class="imagen">
                 <img src="../img/backend.png" alt="backend">
             </div>
+        </div>
 
-            <div class="col-8">
+        <div class="itemj" id="backend">
 
-                <div>
+            <div class="texto">
 
-                    <h3 class="titulos">
-                        Backend Developer
-                    </h3>
+                <h4 class="titulos">
+                    Backend Developer
+                </h4>
         
-                    <ul>
-                        <li><i>soon</i></li>
-                    </ul>
-
-                </div>
+                <ul>
+                    <li><i>soon</i></li>
+                </ul>
 
             </div>
+
+            <a href="#links">Go Up</a>
 
         </div>
 
     </div>
 
-   
+
+<footer class="text-end fixed-bottom">
+    <p>Created By: </p>
+    <img src="../img/firma_paola.png" alt="firmapaoortega">
+</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 </body>

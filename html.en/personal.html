@@ -8,25 +8,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Personal - Pao Ortega</title>
+    <meta name="description" content="Paola Ortega Garcia Portfolio - About me, personal lifem studies">
+    <meta name="keywords" content="HTML, CSS, Portfolio, Curriculum, Personal life, CV, works, Experiencia, skills, studies">
     <link rel="shortcut icon" href="../img/favicon_p.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../sass/main.css">
 
 </head>
 
 <body class="bodypao">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navpao navbar navbar-expand-lg bg-body-tertiary">
 
         <ul class="navbar-brand">
             <li class="borderpao"><a href="../html.es/personal.html">ES</a></li>
             <li class="borderfinalpao"><a href="./personal.html">EN</a></li>
         </ul>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="container-fluid">
@@ -69,73 +71,76 @@
 
     </nav>
 
-    <div class="container text-center">
+    <div class="contenedorgrande text-center" id="links">
 
-        <div class="row">
-            <div class="col sectionmenu1"><a href="./personal.html">personal</a></div>
+        <div class="itema"><a href="./personal.html">personal</a></div>
 
-            <div class="col linkspao">
+        <div class="itemb">
 
-                <nav class="linksinternos">
+            <nav class="linksinternos">
 
-                    <ul>
-                        <li><a href="#quiensoy">¿Who Am I?</a></li>
-                        <li><a href="#educacion">Education</a></li>
-                    </ul>
+                <ul>
+                    <li><a href="#quiensoy">¿Who Am I?</a></li>
+                    <li><a href="#educacion">Education</a></li>
+                </ul>
 
-                </nav>
-
-            </div>
+            </nav>
 
         </div>
 
-        <div class="row" id="quiensoy">
+        <div class="itemc">
 
-            <div class="col-4">
+            <div class="imagen">
                 <img src="../img/paolaortegagarcia.png" alt="Paola Ortega Garcia">
             </div>
+        </div>
 
-            <div class="col-8">
+        <div class="itemd" id="quiensoy">
 
+            <div class="texto">
+                
                 <h3 class="titulos">
                     Paola Ortega García
                 </h3>
-    
+        
                 <p> 
                     I was born on October 4, 1995 in Bogota, Colombia. I am currently 27 years old!
                 </p>
-                
+                    
                 <p>
                     Since I was very young I was passionate about the artistic world, I began to sing and play the piano and guitar. It's something that I still do nowadays.
                 </p>
-    
+        
                 <p>
                     I decided to emigrate to Buenos Aires, the city where I currently live, to continue doing what I was so passionate about. I had the opportunity to pursue a career in music production and accompany my studies with dance and acting classes. This helped me a lot to become the person I am now.
                 </p>
-    
+        
                 <p>
                     I also worked in customer service, which helped me a lot to relate to people and understand every need to make a business a success. I've been able to mix both customer service and my love for music and shows by working at some events.
                 </p>
-    
+        
                 <p>
                     Due to the pandemic, I discovered the magic of computer, since school I was good at all the technological stuff but I never paid too much attention to it. I started with some Data Analyst classes and each time my interest in this area was awakened even more. I decided to continue and look for more courses that involved coding. I supplemented my studies with excel, a tool I use in my work, and I am currently pursuing a career in Full Stack.
                 </p>
-    
+        
                 <p>
                     Although they are totally different areas, from these disciplines I have been able to learn what is commitment, dedication, attention and reasoning. It is something I am grateful for every day and has helped me grow personally and professionally.
                 </p>
-
             </div>
+            <a href="#links">Go Up</a>
 
         </div>
 
-        <div class="row" id="educacion">
+        <div class="iteme">
 
-            <div class="col-4">
+            <div class="imagen">
                 <img src="../img/educacion.png" alt="Estudios">
             </div>
+        </div>
 
-            <div class="col-8" >
+        <div class="itemf" id="educacion">
+
+            <div class="texto">
 
                 <div>
 
@@ -158,7 +163,7 @@
                     </ul>
 
                 </div>
-
+                
                 <div>
 
                     <h3 class="fechas">
@@ -190,10 +195,17 @@
 
             </div>
 
+            <a href="#links">Go Up</a>
+
         </div>
 
     </div>
 
+
+<footer class="text-end fixed-bottom">
+    <p>Creado por: </p>
+    <img src="../img/firma_paola.png" alt="firmapaoortega">
+</footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>   

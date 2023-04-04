@@ -1,0 +1,274 @@
+.contenedorgrandeprofdatos {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "itemb itema"
+    "itemd itemc"
+    "iteme itemf"
+    "itemg itemh"
+    "itemi itemj";
+    grid-template-columns: 3fr 1fr;
+
+    .itema {
+        margin-top: 25vh;
+        margin-bottom: 40vh;
+        font-family: $title-font;
+        grid-area: itema;
+        
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 10vw;
+            padding: 0.2em 0.7em;
+            margin-left: 5vh;
+            border: solid black;
+            background-color: #FFFFFF;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23B1E5F2' fill-opacity='0.52' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+            box-shadow: 1.5vw 1vw 0.5vw #A6A6A8;
+        }
+    }
+
+    .profsuelto {
+        margin-bottom: 2vh;
+    }
+
+    .itemb {
+        grid-area: itemb;
+        margin-top: 30vh;
+
+        .linksinternos {
+
+            ul {
+                margin-top: 2vh;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                gap: 15vw;
+
+                a {
+                    font-family: $text-font;
+                    font-size: 1.5em;
+                    color: black;
+
+                    &:hover {
+                        color: #b1e5f2;
+                    }
+                }
+            }
+            
+        }
+
+        .linksinternosdat {
+            ul {
+                margin-top: 2vh;
+                list-style: none;
+                display: block;
+
+                a {
+                    font-family: $text-font;
+                    font-size: 1.5em;
+                    color: black;
+
+                    &:hover {
+                        color: #b1e5f2;
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+    .itemc {
+        grid-area: itemc;
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+        font-family: $text-font;
+
+        img {
+            width: 30vw;
+        }
+    }
+
+    .itemd {
+        grid-area: itemd;
+        padding-top: 20vh;
+        margin-bottom: 40vh;
+
+        .titulos, .fechas {
+            font-family: $title-font;
+            margin-bottom: 4vh;
+        }
+
+        p {
+            font-family: $text-font;
+            font-size: 0.8em;
+            text-align: start;
+        }
+
+        ul {
+            list-style: none;
+            li{
+                font-family: $text-font;
+            }
+        }
+    }
+
+
+    .iteme {
+        grid-area: iteme;
+        padding-top: 20vh;
+
+        .titulos, .fechas, p, h4 {
+            font-family: $title-font;
+        }
+
+        p {
+            font-family: $text-font;
+            font-size: 0.8em;
+            text-align: start;
+        }
+
+        ul {
+            list-style: none;
+            li{
+                font-family: $text-font;
+            }
+        }
+    }
+
+    .itemf {
+        grid-area: itemf;
+        margin-bottom: 20vh;
+        padding-top: 20vh;
+
+        img {
+            width: 30vw;
+        }
+
+        .fechas {
+            font-family: $title-font;
+        }
+
+        h4 {
+            font-family: $title-font;
+        }
+
+        ul {
+            font-family: $text-font;
+            text-align: center;
+                li {
+                    font-family: $text-font;
+                    list-style: none;
+                    text-align: center;
+                }
+
+        }
+    }
+
+    .itemg {
+        grid-area: itemg;
+        margin-bottom: 20vh;
+
+        .fechas {
+            font-family: $title-font;
+        }
+
+        h4 {
+            font-family: $title-font;
+        }
+
+        ul {
+            font-family: $text-font;
+            text-align: center;
+                li {
+                    font-family: $text-font;
+                    list-style: none;
+                    text-align: center;
+                }
+
+        }
+    }
+
+    .itemh {
+        grid-area: itemh;
+        margin-bottom: 50vh;
+
+        img {
+            width: 30vw;
+        }
+
+        .fechas {
+            font-family: $title-font;
+        }
+
+        h4 {
+            font-family: $title-font;
+        }
+
+        ul {
+            font-family: $text-font;
+            text-align: center;
+                li {
+                    font-family: $text-font;
+                    list-style: none;
+                    text-align: center;
+                }
+
+        }
+    }
+
+    .itemi {
+        grid-area: itemi;
+        margin-bottom: 20vh;
+
+        .fechas {
+            font-family: $title-font;
+        }
+
+        h4 {
+            font-family: $title-font;
+        }
+
+        ul {
+            font-family: $text-font;
+            text-align: center;
+                li {
+                    font-family: $text-font;
+                    list-style: none;
+                    text-align: center;
+                }
+
+        }
+    }
+
+    .itemj {
+        grid-area: itemj;
+        margin-bottom: 50vh;
+
+        img {
+            width: 30vw;
+        }
+        
+        .fechas {
+            font-family: $title-font;
+        }
+
+        h4 {
+            font-family: $title-font;
+        }
+
+        ul {
+            font-family: $text-font;
+            text-align: center;
+                li {
+                    font-family: $text-font;
+                    list-style: none;
+                    text-align: center;
+                }
+
+        }
+    }
+}
+
+
