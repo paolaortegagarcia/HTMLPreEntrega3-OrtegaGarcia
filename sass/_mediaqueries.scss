@@ -49,5 +49,119 @@
         
     }
 
+/* personal programacion */
+
+    .contenedorgrande {
+        grid-template-areas: 
+        "itema"
+        "itemb"
+        "itemc"
+        "itemd"
+        "iteme"
+        "itemf"
+        "itemg"
+        "itemh"
+        "itemi"
+        "itemj";
+        grid-template-columns: 1fr;
+
+        .itema {
+            margin-bottom: 0;
+            
+        }
+
+        .itemb {
+            margin-top: 15vh;
+
+            a {
+                font-size: 1em !important;
+            }
+            
+        }
+
+        .itemc {
+            img{
+                width: 50vw;
+            }
+        }
+
+        .imagenprog {
+            margin-top: 20vh;
+        }
+
+        .itemd {
+            padding-top: 0;
+        }
+
+    }
+
+
+/* profesonal datos */
+
+    .contenedorgrandeprofdatos {
+        grid-template-areas: 
+        "itema"
+        "itemb"
+        "itemc"
+        "itemd"
+        "itemf"
+        "iteme"
+        "itemh"
+        "itemg"
+        "itemj"
+        "itemi";
+        grid-template-columns: 1fr;
+
+        .itema {
+            margin-bottom: 0;
+        }
+
+        .itemb {
+            margin-top: 15vh;
+            a {
+                font-size: 1em !important;
+            }
+        }
+
+        .itemc {
+            margin-bottom: 0;
+        }
+
+        .itemd {
+            padding-top: 2vh;
+            margin-bottom: 20vh;
+        }
+
+        .itemf {
+            margin-bottom: 0;
+        }
+
+        .iteme {
+            padding-top: 2vh;
+            margin-bottom: 30vh;
+        }
+
+        .itemh {
+            margin-bottom: 0;
+        }
+
+        .itemg {
+            padding-top: 2vh;
+        }
+
+        .itemj {
+            margin-bottom: 0;
+        }
+
+        .itemi {
+            padding-top: 2vh;
+            padding-bottom: 10vh;
+            
+        }
+    }
+
+    .formulariopao{
+        padding-bottom: 40vh;
+    } 
 
 }

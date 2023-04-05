@@ -78,9 +78,21 @@ footer img {
   font-family: "Amatic SC", cursive;
   font-size: 25vw;
   margin-bottom: -50px;
+  animation: bounce 1s infinite;
 }
 .indexcontainer .main__hola:hover {
   text-shadow: 1.5vw 1.5vw #b1e5f2;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .indexcontainer .main__paola {
   font-family: "Josefin Sans", sans-serif;
@@ -563,5 +575,72 @@ footer img {
   }
   .sectionmenu .sectionmenu__b a {
     padding: 0.5em 1em;
+  }
+  /* personal programacion */
+  .contenedorgrande {
+    grid-template-areas: "itema" "itemb" "itemc" "itemd" "iteme" "itemf" "itemg" "itemh" "itemi" "itemj";
+    grid-template-columns: 1fr;
+  }
+  .contenedorgrande .itema {
+    margin-bottom: 0;
+  }
+  .contenedorgrande .itemb {
+    margin-top: 15vh;
+  }
+  .contenedorgrande .itemb a {
+    font-size: 1em !important;
+  }
+  .contenedorgrande .itemc img {
+    width: 50vw;
+  }
+  .contenedorgrande .imagenprog {
+    margin-top: 20vh;
+  }
+  .contenedorgrande .itemd {
+    padding-top: 0;
+  }
+  /* profesonal datos */
+  .contenedorgrandeprofdatos {
+    grid-template-areas: "itema" "itemb" "itemc" "itemd" "itemf" "iteme" "itemh" "itemg" "itemj" "itemi";
+    grid-template-columns: 1fr;
+  }
+  .contenedorgrandeprofdatos .itema {
+    margin-bottom: 0;
+  }
+  .contenedorgrandeprofdatos .itemb {
+    margin-top: 15vh;
+  }
+  .contenedorgrandeprofdatos .itemb a {
+    font-size: 1em !important;
+  }
+  .contenedorgrandeprofdatos .itemc {
+    margin-bottom: 0;
+  }
+  .contenedorgrandeprofdatos .itemd {
+    padding-top: 2vh;
+    margin-bottom: 20vh;
+  }
+  .contenedorgrandeprofdatos .itemf {
+    margin-bottom: 0;
+  }
+  .contenedorgrandeprofdatos .iteme {
+    padding-top: 2vh;
+    margin-bottom: 30vh;
+  }
+  .contenedorgrandeprofdatos .itemh {
+    margin-bottom: 0;
+  }
+  .contenedorgrandeprofdatos .itemg {
+    padding-top: 2vh;
+  }
+  .contenedorgrandeprofdatos .itemj {
+    margin-bottom: 0;
+  }
+  .contenedorgrandeprofdatos .itemi {
+    padding-top: 2vh;
+    padding-bottom: 10vh;
+  }
+  .formulariopao {
+    padding-bottom: 40vh;
   }
 }/*# sourceMappingURL=main.css.map */
